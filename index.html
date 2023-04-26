@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myModIndex">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="angular.js" type="text/javascript"></script>
+    <script src="route.min.js"></script>
+    <script src="moduleIndex.js"></script>
+    
+    <title>ShopSmarter</title>
+</head>
+<body ng-controller="myControllerIndex" >
+    <section >
+        <div id="header" >
+            <nav>
+                <ul>
+                    <li><a href="#ContentBox">Home</a></li>
+                    <li><a href="#About">About Us</a></li>
+                    <li><a href="#Mobile">Product Categories</a>
+                    <li><a href="#footer">Services</a></li>
+                    <li><a href="#footer">Contact Us</a></li>
+                </ul>
+            </nav>
+            <div id="loginSignUp" >
+                <button ng-click=Logout()>Logout</button>
+                <!-- <button>Log in</button> -->
+            </div>
+        </div>
+        <div id="ContentBox">
+            <h1>Welcome to Product Comparator System</h1>
+            <h4>Find the best match for your needs with ease </h4>
+            <h5>Make informed decisions effortlessly </h5>
+        </div>
+        <div id="Mobile">
+            <h1>Mobile Phones</h1>
+            <h3>Compare Mobiles On Single Click</h3><br><br>
+            <button ng-click="Mobile()">Mobiles</button>
+        </div>
+        <div id="Laptop">
+            <h1>Laptops</h1>
+            <h3>Compare Laptops On Single Click</h3><br><br>
+           <button ng-click="Laptop()" >Laptops</button>
+        </div>
+        <div id="Watches" >
+            <h1>Watches</h1>
+            <h3>Compare Watches On Single Click</h3><br><br>
+            <button ng-click="Watches()">Watches</button>
+        </div>
+        <div id="Novels" >
+            <h1>Novels</h1>
+            <h3>Compare Novels On Single Click</h3><br><br>
+           <button ng-click="Books()">Novels</button>
+        </div>
+       <div id="footer">
+            <div id="Products">
+                <h2>Product Categories</h2><br>
+                <div>Laptops</div>
+                <div>Mobile Phones</div>
+                <div>Novels</div>
+                <div>Watches</div>
+             </div>
+             <div id="FollowUshandle">
+                <h2>FOLLOW US</h2><br><br>
+                <img src="fb-removebg-preview.png"  width="40px"alt="facebook">
+                <img src="git-removebg-preview.png" width="40px" alt="Github">
+                <img src="insta-removebg-preview.png"width="40px"  alt="Insta">
+                <img src="link-removebg-preview.png" width="40px"  alt="Linked in">
+            </div>
+            <div id="ContactUs">
+                <h2>CONTACT  US</h2><br>
+                <div>Contact No : 8528591661</div>
+                <div>WhatsApp No : 7234874583</div>
+                <div>Email : ShopSmarter@gmail.com</div>
+            </div>
+         </div>
+</section>
+</body>
+</html>
