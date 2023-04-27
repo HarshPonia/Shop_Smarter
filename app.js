@@ -129,6 +129,10 @@ app.get("/RegisterPage.html",(req,res)=>
 {
     res.sendFile(path.join(__dirname,'Register.html'));
 })
+app.get("/FrontPage.html",(req,res)=>
+{
+    res.sendFile(path.join(__dirname,'FrontPage.html'));
+})
 
 
 app.get("/",(req,res)=>

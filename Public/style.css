@@ -20,14 +20,17 @@
     height: 80px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    background-color: rgb(230, 234, 234);
+    
+    background-color: rgb(118, 208, 208);
   }
   
   nav {
+   
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+    width: 90%;
+    justify-content: center;
     margin-left: 20px;
   }
   
@@ -36,7 +39,7 @@
   }
   
   nav ul {
-    margin-left: 1vw;
+    /* margin-left: 1vw; */
   }
   
   nav ul li {
@@ -48,7 +51,7 @@
   
   nav ul li a {
     text-decoration: none;
-    color: black;
+    color: rgb(249, 244, 244);
     cursor: pointer;
     font-size: 18px;
     position: relative;
@@ -58,7 +61,7 @@
     content: '';
     width: 0;
     height: 1px;
-    background: rgba(24, 24, 144, 0.827);
+    background: rgba(5, 5, 5, 0.827);
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -80,7 +83,7 @@
     padding: 10px;
     font-size: 1.1vw;
     padding-left: 20px;
-    background-color: rgba(160, 111, 224, 0.827);
+    background-color: rgba(93, 92, 94, 0.827);
     color: white;
     padding-right: 20px;
     border: none;
@@ -89,7 +92,7 @@
   }
   
   button:hover {
-    background-color: rgb(100, 67, 114);
+    background-color: rgb(96, 93, 98);
     box-shadow: 0 -20px 20px rgba(0, 0, 0, 0.228), 0 20px 20px rgba(0, 0, 0, 0.228);
     font-size: 1.2vw;
     transition: 700ms;
@@ -121,23 +124,23 @@
   }
   
   #ContentBox {
-    background-color: rgba(31, 102, 128, 0.349);
+    background-color: rgba(22, 66, 74, 0.845);
   }
   
   #Mobile {
-    background-color: rgb(172, 115, 166);
+    background-color: rgb(147, 151, 215);
   }
   
   #Laptop{
-    background-color: rgba(48, 35, 80, 0.488)
+    background-color: rgba(139, 120, 186, 0.488)
   }
   
   #Watches {
-    background-color: rgba(166, 127, 219, 0.512)
+    background-color: rgba(150, 98, 156, 0.512)
   }
   
   #Novels {
-    background-color: rgba(223, 130, 228, 0.505)
+    background-color: rgba(155, 124, 157, 0.505)
   }
   
   
